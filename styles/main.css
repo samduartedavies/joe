@@ -1,0 +1,439 @@
+@font-face{
+	font-family:TheSansExtraLight;
+	src:url('thesansextralight.ttf');
+}
+@font-face{
+	font-family:cubic;
+	src:url('cubic.ttf');
+}
+@font-face{
+	font-family:cyber;
+	src:url('Cyberfunk.ttf');
+}
+@font-face{
+	font-family:adobe;
+	src:url('JKAbode-Demo.ttf');
+}
+
+body {
+  padding: 0px;
+  height: 100%;
+  	font-family:TheSansExtraLight,helvetica,arial,freesans,sans-serif;font-size:17px;
+overflow-x:hidden;
+background-color:black;
+color:#f2f2f2;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.footer{
+	margin-top:10%;
+}
+a {
+    color: #00cccc;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+.carousel-caption {
+   position: absolute;
+   top:25%;
+   left:50px;
+   text-align:left;
+}
+.carousel-caption h1{
+font-family}
+
+.light {
+    font-weight: 400;
+}
+#augmindNav{
+	font-family:cyber;
+	font-size:34px;
+    text-transform: none;
+margin-right:-5px;	
+}
+#hiveNav{
+	font-family:cubic;
+	color:#ffcc00;
+	font-size:25px;
+}
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    background-color: #000;
+  	font-family:TheSansExtraLight,helvetica,arial,freesans,sans-serif;font-size:17px;
+	
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.intro{
+    display: table;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;	
+	}
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+.content-section {
+    padding-top: 100px;
+}
+
+.download-section {
+    width: 100%;
+    padding: 150px 0;
+    color: #fff;
+	height:auto;
+    background: url(../images/mist.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}	
+#contact{
+	margin-top:5%;
+		margin-bottom:300px;
+}	
+#reviews,#more{
+	margin-top:-60px;
+}
+#about{
+	background-color:#b3ff99;	
+	color:#0d0d0d;
+}
+#hiveLogo{
+	font-family:cubic;
+	font-size:150px;
+}
+#hive-text{
+	color:#ffcc00;
+}
+.productsTitle{
+	font-family:cyber;
+	font-size:50px;
+    text-transform: none;		
+}
+#hum{
+	background-color:#001a33;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;	
+}
+#deepFocus{
+	background-color:#660000;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;	
+}
+#flicker{
+	background-color:#e68a00;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+}
+#flicker,#deepFocus,#hum{
+	min-height:750px;
+}
+#features{
+	background-color:#262626;
+	color:#0d0d0d;
+}
+.featuresText{
+	margin-top:-40px;
+	text-align:left;
+}
+img{
+	width:100%;
+	height:100%;
+}
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+  font-family:TheSansExtraLight,helvetica,arial,freesans,sans-serif;font-size:17px;
+
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+.carousel-inner > .item > img,
+.carousel,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+.content-section > img{
+	height:100px;
+} 
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
+/*This is the features */
+#features{
+		background: linear-gradient(black, #0d0d0d);
+		color:#fff;	
+}
+#hive{
+	color:#ffcc00; /*changes text colour */
+	background-color:#0d0d0d;
+	padding-top:15%;
+	padding-bottom:5%;
+}
+#reviews{
+		background: #000;
+}
+#products{
+	background:#0d0d0d;
+}
+#about{
+	background-color:white;
+}
+.mugshot{
+	max-width:250px;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+.about-quotes{
+	font-size:16px;
+}
+.quote-marks{
+	font-size:40px;
+	margin:auto;
+}
+.fa-quote-right{
+	color:#00cccc;
+	margin-left:10px;
+}
+.fa-quote-left{
+	color:#00cccc;
+	margin-right:10px;
+}
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+/* Responsive: Portrait tablets and up */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+    p {
+        margin: 0 0 35px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+	#reviews{
+		/*margin-top:-250px;*/
+		font-size:12px;
+	}
+	h1 > small{
+		font-size:15px;
+		line-height:5px;
+	}
+	h1, .h1 {
+		font-size: 20px;
+		margin-bottom:10px;
+	}
+	#hiveLogo{
+		font-family:cubic;
+		font-size:100px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#features{
+		margin-top:50px;
+	}
+	#reviews{
+		margin-top:-50px;
+		margin-bottom:100px;
+		font-size:14px;
+	}
+}
+
+
+/*-------------LOADING ICON
+---------------------*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/Preloader_8.gif) center no-repeat #fff;
+}
+
